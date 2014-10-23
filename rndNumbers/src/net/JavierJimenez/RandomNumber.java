@@ -42,26 +42,9 @@ public class RandomNumber {
 
 		System.out.println();
 
-		boolean found = false;
-
-		int j = 0;
+		int search = Arrays.binarySearch(randomArray, valor);
 		
-		while (!found && j != randomArray.length - 1) {
-
-			int random = randomArray[j];
-			
-			if(random == valor){
-				
-				found = true;
-				
-			} else {
-				
-				j++;
-				
-			}			
-		}
-		
-		if (found == true){
+		if (search >= 0){
 			
 			System.out.println("El valor " + valor + " es troba dins l'array.");
 			System.out.println();
@@ -81,5 +64,4 @@ public class RandomNumber {
 
 		System.out.println("El programa ha trigar " + total_Time + " milisegons");
 	}
-
 }
