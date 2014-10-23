@@ -10,6 +10,7 @@ import java.util.Random;
 /**
  * @author surrui
  *
+ *Modificació per el repositori Local
  */
 public class RandomNumber {
 
