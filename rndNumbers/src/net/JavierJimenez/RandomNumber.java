@@ -61,8 +61,7 @@ public class RandomNumber {
 			}			
 		}
 		
-		//prova
-		
+		//hdshhddff
 		if (found == true){
 			
 			System.out.println("El valor " + valor + " es troba dins l'array.");
